@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universo dos Animes - IFPI</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="bg-dark text-white text-center py-4 border-bottom border-danger border-3">
+        <h1 class="display-5 fw-bold text-danger">Portal Otaku & Animes</h1>
+        <p class="lead text-light">Explorando clássicos da animação japonesa</p>
+        <nav class="mt-3">
+            <a href="index.html" class="text-warning mx-2 text-decoration-none fw-bold">Início</a> |
+            <a href="animes.html" class="text-light mx-2 text-decoration-none">Catálogo e Personagens</a> |
+            <a href="https://myanimelist.net" target="_blank" class="text-light mx-2 text-decoration-none">MyAnimeList (Externo)</a>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        
+        <!-- Requisito: Layout com Bootstrap (container, row e 3 colunas)[span_9](start_span)[span_9](end_span) -->
+        <div class="row mb-5">
+            <div class="col-md-4 mb-3">
+                <div class="p-4 border bg-white rounded shadow-sm h-100 border-top border-danger border-4">
+                    <h3>Shonen de Aventura</h3>
+                    <p>Obras focadas em ação intensa, superação de limites, amizade e jornadas épicas de heróis em crescimento.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="p-4 border bg-white rounded shadow-sm h-100 border-top border-warning border-4">
+                    <h3>Ficção & Fantasia</h3>
+                    <p>Universos complexos com sistemas de magia elaborados, alquimia, leis místicas e mistérios profundos.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="p-4 border bg-white rounded shadow-sm h-100 border-top border-info border-4">
+                    <h3>Estética & Narrativa</h3>
+                    <p>Análises de traços artísticos, trilhas sonoras marcantes e reviravoltas dramáticas inesquecíveis.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção de Textos, Fontes e Imagens (Mínimo 3 imagens na página)[span_10](start_span)[span_10](end_span)[span_11](start_span)[span_11](end_span) -->
+        <section class="mb-5">
+            <h2 class="text-dark border-bottom pb-2">Destaques da Temporada</h2>
+            <p class="text-muted">Conheça algumas das obras-primas mais aclamadas da história dos animes:</p>
+            <div class="row text-center">
+                <div class="col-md-4 mb-3">
+                    <img src="./hxh.jpg" class="img-fluid rounded shadow-sm anime-img" alt="hxh">
+                    <h5 class="mt-3">Hunter x Hunter (1999)</h5>
+                    <p class="text-muted small">A jornada de Gon Freecss em busca de se tornar um Hunter.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="./fullmetal alchemist.jpg" class="img-fluid rounded shadow-sm anime-img" alt="fullmetal alchemist">
+                    <h5 class="mt-3">Fullmetal Alchemist</h5>
+                    <p class="text-muted small">A busca dos irmãos Elric pela Pedra Filosofal.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="./cultura otaku.jpg" class="img-fluid rounded shadow-sm anime-img" alt="cultura otaku">
+                    <h5 class="mt-3">Cultura Otaku</h5>
+                    <p class="text-muted small">A evolução e impacto global das animações japonesas.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Requisito: Listas (ul e ol)[span_12](start_span)[span_12](end_span) -->
+        <section class="row mb-5 bg-white p-4 rounded shadow-sm">
+            <div class="col-md-6">
+                <h3 class="text-danger">Mangás e Animes Favoritos</h3>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Hunter x Hunter</li>
+                    <li class="list-group-item">Fullmetal Alchemist: Brotherhood</li>
+                    <li class="list-group-item">Clássicos do Mistério e Aventura</li>
+                </ul>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+                <h3>Etapas para Assistir uma Franquia </h3>
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item border-0">Pesquisar a ordem cronológica correta.</li>
+                    <li class="list-group-item border-0">Verificar a existência de filmes cânones.</li>
+                    <li class="list-group-item border-0">Acompanhar os arcos principais.</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Requisito: Tabela com thead, tbody e 4 linhas[span_13](start_span)[span_13](end_span) -->
+        <section class="mb-5">
+            <h2 class="text-dark border-bottom pb-2">Ranking de Obras</h2>
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered shadow-sm bg-white">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>#</th>
+                            <th>Título do Anime</th>
+                            <th>Gênero Principal</th>
+                            <th>Nota Média</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Hunter x Hunter</td>
+                            <td>Aventura / Shonen</td>
+                            <td>9.1 / 10</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Fullmetal Alchemist</td>
+                            <td>Fantasia / Alquimia</td>
+                            <td>9.2 / 10</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Death Note</td>
+                            <td>Suspense / Sobrenatural</td>
+                            <td>9.0 / 10</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Steins;Gate</td>
+                            <td>Ficção Científica</td>
+                            <td>9.1 / 10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Requisito: Formulário com campos obrigatórios[span_14](start_span)[span_14](end_span) -->
+        <section class="mb-5 bg-white p-4 rounded shadow-sm border-start border-danger border-5">
+            <h2>Indique um Anime</h2>
+            <p class="text-muted">Tem alguma recomendação de anime? Preencha os campos abaixo:</p>
+            <form action="#" method="POST">
+                <div class="mb-3">
+                    <label for="nomeAnime" class="form-label">Nome do Anime:</label>
+                    <input type="text" class="form-control" id="nomeAnime" name="nomeAnime" required>
+                </div>
+                <div class="mb-3">
+                    <label for="emailContato" class="form-label">Seu E-mail:</label>
+                    <input type="email" class="form-control" id="emailContato" name="emailContato" required>
+                </div>
+                <div class="mb-3">
+                    <label for="motivo" class="form-label">Por que recomenda?</label>
+                    <textarea class="form-control" id="motivo" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger">Enviar Indicação</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2026 - Instituto Federal do Piauí (IFPI) | Tema: Animes</p>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

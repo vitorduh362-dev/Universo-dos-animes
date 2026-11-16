@@ -1,0 +1,37 @@
+/* Definir fonte padrão e estilos globais[span_18](start_span)[span_18](end_span) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #212529;
+}
+
+/* Estilização de elementos textuais[span_19](start_span)[span_19](end_span) */
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+/* Cores e fundo[span_20](start_span)[span_20](end_span) */
+header {
+    background: linear-gradient(135deg, #1b1e21 0%, #343a40 100%);
+}
+
+/* Efeito de zoom nas imagens de animes */
+.anime-img {
+    transition: transform 0.3s ease;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.anime-img:hover {
+    transform: scale(1.03);
+}
+
+/* Estilização de links[span_21](start_span)[span_21](end_span) */
+a {
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #dc3545 !important;
+}
